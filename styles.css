@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.global-padding {
+    padding: 40px 80px;
+}
+
+.bg-video {
+    z-index: -9999;
+    width: 100%;
+}
+
+#landing-page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    z-index: 25;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('images/bg.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#landing-page .mbcet-logo {
+    text-align: center;
+    width: 250px;
+    height: 55px;
+    margin-bottom: 20px;
+}
+
+#landing-page .ingress-logo {
+    width: 590px;
+    height: 180px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+#landing-page .date {
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+#landing-page .reg-button {
+    font-size: 1rem;
+    padding: 15px 25px;
+    margin-top: 50px;
+    height: 60px;
+    min-height: 50px;
+    border-radius: 5px;
+}
+
+
+#sponsors{
+    width: 100%;    
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sponsors h2{
+    padding: 30px 0;
+    font-size: 30px; 
+    font-weight: 500;   
+}
+
+#sponsors .sponsor-container{
+    padding: 15px 25px;
+    margin: 30px;
+    border-radius: 10px;
+    background-color: white;
+    width: 20%;
+}
+
+#sponsors .sub-sponsors{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#sponsors .sub-sponsors .sponsor-container{
+    width: 12%;
+}
+
+.division{
+    border: 0;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(255,255,255,0.75), rgba(0,0,0,0));
+    border-radius: 5px;
+    height: 3px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
