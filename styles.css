@@ -73,10 +73,11 @@ h3 {
 
 #sponsors{
     width: 100%;    
-    background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: black;
+    /* background-image: linear-gradient(#1565C0, #3c1053,); */
 }
 
 #sponsors h2{
@@ -90,17 +91,18 @@ h3 {
     margin: 30px;
     border-radius: 10px;
     background-color: white;
-    width: 20%;
+    width: 200px;
 }
 
 #sponsors .sub-sponsors{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #sponsors .sub-sponsors .sponsor-container{
-    width: 12%;
+    width: 170px;
 }
 
 .division{
